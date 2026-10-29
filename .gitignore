@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pt
+checkpoints/
+data/raw/
+data/processed/
+results/history/
+results/figures/
+results/runs.csv
+wandb/
+tests/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store

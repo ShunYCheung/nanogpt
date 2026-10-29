@@ -1,0 +1,10 @@
+torch>=2.1
+numpy
+pyyaml
+# analysis / experiments
+matplotlib
+pandas
+# tests
+pytest
+# optional experiment tracking
+# wandb
