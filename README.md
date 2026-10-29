@@ -1,10 +1,10 @@
 # nanoGPT-LotR
 
-This is a chracter-level GPT trained from scratch on the Lord of the Rings screenplay.
+This is a character-level GPT trained from scratch on the Lord of the Rings screenplay.
 I made this to learn how GPT works. This includes stuff like transformers, 
 multi-head self attention and automatic mixed precision (AMP). This is not meant to be a working chatGPT demo.
 
-This model and code is based on Andrej's Karpathy's Youtube tutorial [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY).
+This model and code is based on Andrej Karpathy's Youtube tutorial [Let's build GPT: from scratch, in code, spelled out](https://www.youtube.com/watch?v=kCc8FmEb1nY).
 This is a great tutorial to learn the basics of GPT and how to build a small GPT yourself.
 This code is a modified version and is trained on the Lord of the Rings instead of Shakespeare. 
 
