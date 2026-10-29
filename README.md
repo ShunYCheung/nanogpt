@@ -61,10 +61,8 @@ config/              YAML configs; experiments/ holds one file per run
 experiments/         run_scaling_law.py, run_ablation.py, analyze.ipynb
 data/prepare.py      cleans a raw corpus -> data/processed/lotr.txt
 results/             runs.csv (ledger) + history/ (curves) + figures/
-notebooks/           exploration.ipynb (the original notebook with my first attempt)
+notebooks/           test.ipynb (the original notebook with my first attempt)
 ```
-
-The notebook is kept as honest provenance, but the package is the deliverable.
 
 ---
 

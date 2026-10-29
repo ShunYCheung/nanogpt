@@ -1,0 +1,6 @@
+# One point on the scaling curve (~5M params); the full sweep lives in
+# experiments/run_scaling_law.py
+name: scale_m
+n_layer: 6
+n_embd: 256
+n_head: 8

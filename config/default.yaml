@@ -1,0 +1,30 @@
+# Baseline run. Reproduces the original notebook's setup with the bug fixes applied.
+name: default
+seed: 1337
+data_path: data/processed/lotr.txt
+
+# model
+block_size: 256
+n_embd: 256
+n_head: 8
+n_layer: 6
+dropout: 0.2
+
+# optimisation
+batch_size: 64
+max_iters: 5000
+learning_rate: 0.0003
+min_lr: 0.00003
+warmup_iters: 500
+lr_decay_iters: 5000
+weight_decay: 0.1
+grad_clip: 1.0
+
+# eval / sampling
+eval_interval: 500
+eval_iters: 200
+temperature: 0.8
+top_k: 200
+
+# tracking (set true if you have wandb configured)
+use_wandb: false

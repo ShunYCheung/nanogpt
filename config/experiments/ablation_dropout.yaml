@@ -1,0 +1,4 @@
+# Single ablation point; the grid lives in experiments/run_ablation.py
+name: abl_do0.0_wd0.0
+dropout: 0.0
+weight_decay: 0.0

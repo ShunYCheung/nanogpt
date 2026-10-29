@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanogpt-lotr"
+version = "0.1.0"
+description = "A character-level GPT trained on the LotR screenplay, framed as a small scaling study."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["torch>=2.1", "numpy", "pyyaml"]
+
+[project.optional-dependencies]
+dev = ["pytest", "matplotlib", "pandas", "wandb"]
+
+[tool.setuptools.packages.find]
+include = ["nanogpt_lotr*"]
